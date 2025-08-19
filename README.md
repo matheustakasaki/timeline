@@ -37,3 +37,35 @@ If I had more time, I would implement unit and integration tests for the compone
 - I would also add **snapshot tests** to ensure the component renders consistently after changes.  
 
 This would help guarantee that future modifications don’t break existing functionality.
+
+---
+
+---
+
+## How to run?
+
+Follow these steps to clone and run the project locally:
+
+```bash
+# 1. Clone the repository (HTTPS):
+git clone https://github.com/matheustakasaki/timeline.git
+
+# or, if you prefer to use SSH:
+git clone git@github.com:matheustakasaki/timeline.git
+
+# 2. Change to the project directory:
+cd timeline
+
+# 3. Install dependencies:
+npm install
+# or if you're using Yarn:
+# yarn install
+
+# 4. Run the development server:
+npm start
+# or with Yarn:
+# yarn start
+
+# The app should open automatically in your browser,
+# or you can visit: http://localhost:1234
+
