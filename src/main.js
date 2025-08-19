@@ -1,9 +1,9 @@
 // Main.jsx
 
 import { isItemDirty } from './utils/difItem.js'
-import React, { useMemo, useRef, useState } from 'react'
+import { useMemo, useState } from 'react'
 import assignLanes from './assignLanes'
-import { addDays } from 'date-fns'
+
 import { useBounds, useScale, daysInclusive } from './hooks/useTimeline'
 import TimelineHeader from './components/TimelineHeader'
 import TimelineItem from './components/TimelineItem'

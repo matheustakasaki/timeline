@@ -28,7 +28,7 @@ export default function TimelineItem({
     // Util: convert pixels accumulated into days and consumes from accumulator
     const consumeDays = (accRef, dx, pxPerDay) => {
         accRef.current += dx;
-        const steps = Math.trunc(accRef.current / pxPerDay); 
+        const steps = Math.trunc(accRef.current / pxPerDay);
         if (steps !== 0) {
             accRef.current -= steps * pxPerDay; // consume the steps
         }
@@ -91,7 +91,7 @@ export default function TimelineItem({
     return (
         <div
             className={clsx(
-                "absolute rounded-2xl border shadow-sm flex items-center overflow-hidden",
+                "absolute border shadow-sm flex items-center overflow-hidden",
                 "bg-sky-100 border-sky-200 group",
                 "select-none touch-none" // avoid selection when dragging
             )}
@@ -107,7 +107,7 @@ export default function TimelineItem({
             {/* left handle */}
             <div
                 {...bindLeft()}
-                className="w-1 h-5 cursor-ew-resize bg-black/10 shrink-0"
+                className="w-1 h-5 cursor-ew-resize bg-black/25 shrink-0"
                 title="Ajustar início"
             />
 
@@ -139,7 +139,7 @@ export default function TimelineItem({
             {/* right handle  */}
             <div
                 {...bindRight()}
-                className="w-1 h-5 cursor-ew-resize bg-black/10 shrink-0"
+                className="w-1 h-5 cursor-ew-resize bg-black/25 shrink-0"
                 title="Ajustar término"
             />
 
