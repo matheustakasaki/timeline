@@ -14,6 +14,7 @@ I liked that the result feels very close to something that could actually be lau
 I would modify the drag-and-drop feature and make the lanes behave like draggable intervals — similar to vector elements in Figma or Canva.  
 That would make the interaction feel more natural and flexible.
 I would also improve the zoom functionality and the visual design of the component.
+
 ---
 
 ## How I made my design decisions
